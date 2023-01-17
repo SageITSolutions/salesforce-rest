@@ -1,0 +1,44 @@
+{
+  "name": "sageit/salesforce-rest",
+  "description": "Sage IT Component Salesforce REST integration",
+  "keywords": [
+    "salesforce",
+    "rest",
+    "api"
+  ],
+  "authors": [
+    {
+      "name": "Daniel S. Davis",
+      "email": "daniel.davis@sageitsolutions.net"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/SageITSolutions/salesforce-rest/issues",
+    "source": "https://github.com/SageITSolutions/salesforce-rest",
+    "forum": "https://forum.phalconphp.com/",
+    "docs": "https://docs.phalconphp.com/",
+    "irc": "irc://irc.freenode.org/phalconphp",
+    "rss": "https://blog.phalconphp.com/rss",
+    "email": "daniel.davis@sageitsolutions.net"
+  },
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "codeception/verify": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Salesforce\\Rest\\": "Salesforce/Rest",
+      "Salesforce\\Exception\\": "Salesforce/Exception"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Salesforce\\Rest\\": "Salesforce/Rest",
+      "Salesforce\\Exception\\": "Salesforce/Exception"
+    }
+  }
+}
